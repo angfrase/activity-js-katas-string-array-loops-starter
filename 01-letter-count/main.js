@@ -19,4 +19,40 @@
 
 */
 
-// YOUR CODE HERE
+// let word = "imagination"
+// let letter="i"
+// let times= 0
+// count=0
+
+// while(count < word.length){
+// //   console.log(word[count]);
+//   if (letter===word[count]) {
+//      //console.log(letter);
+//      times=times+1;
+//      }
+//      count=count+1;
+// }
+// console.log(times)
+
+//or you can write like this
+let word="imagination"
+let letter="i"
+let letterCount=0;
+let index=0
+while (index<word.length){
+console.log (index,word[index]);
+if (letter === word[index]) {
+   console.log(index);
+   letterCount = letterCount +1;
+   
+}
+index = index + 1
+}
+if (letterCount > 0 ) {
+   console.log("The letter " + letter + " exists " + letterCount + " times in this word!");
+} else {
+   console.log( "Nope, that letter doesn't exist in my word!");
+}
+
+
+
